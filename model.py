@@ -1,6 +1,8 @@
-import requests
 import pandas as pd
+from fetch_data.py import fetch_data
 
-response = requests.get("")
-data = response.json()
 
+power = fetch_data()
+
+
+records = []
